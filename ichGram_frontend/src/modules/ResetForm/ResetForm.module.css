@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: solid 1px #dbdbdb;
+    padding: 40px;
+    width: 388px;
+
+}
+
+.textField {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+}
+
+.subtitle{
+    font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+text-align: center;
+color: #737373;
+
+}
+
+
+.whiteInput {
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+width: 290px;
+height: 38px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+color: #c7c7c7;
+    padding: 12px 8px;
+    background-color: #fafafa;
+    margin: 15px;
+}
+
+.whiteInput::placeholder {
+    color: #c7c7c7;
+}
+
+
+.wraptwo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    text-align: center;
+    color: #737373;
+}
+
+
+.link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    text-align: center;
+    color: #00376b;
+}
+
+.loadingText {
+    color: #999;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.account {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #000;
+}
+
+.login {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--main-button-background);
+    text-decoration: none;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+
+
+font-weight: 600;
+font-size: 14px;
+line-height: 129%;
+text-align: center;
+color: #262626;
+padding: 14px 150px;
+text-decoration: none;
+}

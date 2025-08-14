@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: solid 1px #dbdbdb;
+  padding: 40px;
+  width: 348px;
+}
+
+.wraptwo {
+  display: flex;
+  gap: 3px;
+}
+
+.account {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #000;
+}
+
+.login {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--main-button-background);
+}

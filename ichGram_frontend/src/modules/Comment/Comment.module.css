@@ -1,0 +1,59 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 129%;
+  color: #000;
+  margin-top: 5px;
+}
+
+.commentMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 13px;
+  color: #777;
+}
+
+.likeWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.likeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.likeIcon {
+  transition: transform 0.15s ease;
+  cursor: pointer;
+}
+
+.likeIcon:hover {
+  transform: scale(1.2);
+}
+

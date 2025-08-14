@@ -1,0 +1,102 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  display: flex;
+  width: min(1100px, 96vw);
+  height: min(90vh, 900px);
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imageContainer {
+  flex: 0 0 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.infoContainer {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.container {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 11px;
+  color: #0095f6;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1 1 auto;
+  overflow: auto;
+  padding-right: 6px;
+}
+
+.description {
+  margin: 10px 0;
+}
+
+.line {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 16px 0;
+}
+
+.cmt {
+  margin: 8px 0;
+  color: #777;
+}
+
+
+.footer {
+  flex: 0 0 auto;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+}

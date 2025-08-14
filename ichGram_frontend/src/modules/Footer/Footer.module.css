@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  padding: 20px;
+  background-color: white;
+ text-align: center;
+  font-size: 14px;
+  color: #8e8e8e;
+  
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.navLinks a {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 13px;
+}

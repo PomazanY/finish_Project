@@ -1,0 +1,68 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    /* width: 350px; */
+    /* height: 411px; */
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+
+.hr {
+    flex: 1;
+    height: 1px;
+    border: none;
+    background-color: #dbdbdb;
+}
+
+.or {
+    margin: 0 10px;
+    color: #888;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.linkPassword {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    text-align: center;
+    color: #00376b;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.wraptwo{
+    display: flex;
+    gap: 3px;
+}
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #000;
+}
+
+.signUp {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--main-button-background);
+    text-decoration: none;
+}

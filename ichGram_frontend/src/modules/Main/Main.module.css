@@ -1,0 +1,72 @@
+.postList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 30px;
+  justify-items: center;
+}
+
+.postCard {
+  width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.img {
+  width: 400px;
+  height: 500px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px 0;
+
+}
+
+.likeIcon {
+  transition: transform 0.15s ease;
+  cursor: pointer;
+}
+.containerImg{
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 8px;
+
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 8px;
+}
+
+.viewAllBtn, .viewLessBtn {
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+  color: #888;
+  font-size: 14px;
+}
+.viewAllBtn:hover, .viewLessBtn:hover { color: #555; }

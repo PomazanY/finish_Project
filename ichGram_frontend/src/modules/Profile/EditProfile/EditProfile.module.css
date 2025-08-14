@@ -1,0 +1,11 @@
+.container {
+    margin: 42px 170px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    color: #000;
+}
+

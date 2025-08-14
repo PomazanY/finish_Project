@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    gap: 44px;
+    margin: 94px 119px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56%;
+    color: #000;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    color: #737373;
+}

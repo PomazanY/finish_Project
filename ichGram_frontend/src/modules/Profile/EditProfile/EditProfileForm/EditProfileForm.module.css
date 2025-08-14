@@ -1,0 +1,65 @@
+.form {
+
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.avatarRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+  background-color: #EFEFEF;
+  padding: 16px;
+  width: 610px;
+  
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #dbdbdb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.username {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+}
+
+.bio {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: #737373;
+  
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: #000;
+}
+
+.error {
+  font-size: 12px;
+  color: #e63946;
+  margin-top: 4px;
+}

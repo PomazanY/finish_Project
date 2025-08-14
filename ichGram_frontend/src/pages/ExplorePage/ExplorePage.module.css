@@ -1,0 +1,36 @@
+
+.explore {
+  column-count: 3;
+  column-gap: 4px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tile {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  margin: 0 0 4px;        
+  break-inside: avoid;
+  position: relative;
+}
+
+.tile img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+  transition: transform .2s ease;
+}
+
+.tile:hover img { transform: scale(1.02); }
+
+.loading {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(1px);
+}

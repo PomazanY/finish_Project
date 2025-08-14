@@ -1,0 +1,22 @@
+.commentForm {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.commentForm input {
+  flex: 1;
+  border: none;
+  padding: 8px;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 129%;
+  text-align: center;
+  color: #0095f6;
+  background-color: white;
+  border: none;
+}

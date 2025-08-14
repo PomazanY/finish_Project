@@ -1,0 +1,40 @@
+
+.textField {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 42px;
+    margin: 15px;
+}
+
+.whiteInput {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 300%;
+    color: #737373;
+    padding: 12px 8px;
+    background-color: #fafafa;
+}
+
+.whiteInput::placeholder {
+    color: #737373;
+}
+
+
+.loadingText {
+  color: #999;
+  margin-top: 8px;
+  font-size: 14px;
+}

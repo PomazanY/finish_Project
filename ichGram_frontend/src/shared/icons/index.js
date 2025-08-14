@@ -1,0 +1,11 @@
+export {default as HomeIcon} from "./HomeIcon";
+export {default as SearchIcon} from "./SearchIcon";
+export {default as ExploreIcon} from "./ExploreIcon";
+export {default as MessageIcon} from "./MessageIcon";
+export {default as NotificationIcon} from "./NotificationIcon";
+export {default as CreateIcon} from "./CreateIcon";
+export {default as LikeIcon} from "./LikeIcon";
+export{default as SmileIcon}from "./SmileIcon";
+export {default as DetailPostIcon} from "./DetailPostIcon";
+export {default as UploadIcon} from "./UploadIcon";
+export {default as ResetIcon} from "./ResetIcon";
